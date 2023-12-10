@@ -4,10 +4,10 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
 export default defineConfig({
-  name: 'default',
-  title: 'Kami_Portfolio',
+  name: 'ecommerce',
+  title: 'ecommerce',
 
-  projectId: '0dhryu75',
+  projectId: 'c94vm9i7',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
